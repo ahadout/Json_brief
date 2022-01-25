@@ -1,0 +1,91 @@
+[
+    {
+        "ID" : 101,
+        "désignation" : "Antibiotique",
+        "prix" : 149,
+        "catégorie" : "categorie1",
+        "disponibilité" : ["tanger", "rabat", "fes"],
+        "fournisseur" : {"raisonSociale" : "test1", "adresse" : "adresse1"}
+    },
+
+    {
+        "ID" : 102,
+        "désignation" : "libelle102",
+        "prix" : 299,
+        "catégorie" : "categorie2",
+        "disponibilité" : ["tanger", "rabat"],
+        "fournisseur" : {"raisonSociale" : "test2", "adresse" : "adresse2"}
+    },
+
+    {
+        "ID" : 103,
+        "désignation" : "libelle103",
+        "prix" : 99,
+        "catégorie" : "categorie3",
+        "disponibilité" : ["tanger", "rabat", "fes", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test3", "adresse" : "adresse3"}
+    },
+
+    {
+        "ID" : 104,
+        "désignation" : "libelle101",
+        "prix" : 399,
+        "catégorie" : "categorie2",
+        "disponibilité" : ["rabat", "fes"],
+        "fournisseur" : {"raisonSociale" : "test1", "adresse" : "adresse1"}
+    },
+
+    {
+        "ID" : 105,
+        "désignation" : "libelle104",
+        "prix" : 249,
+        "catégorie" : "categorie1",
+        "disponibilité" : ["tanger", "fes", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test4", "adresse" : "adresse4"}
+    },
+
+    {
+        "ID" : 106,
+        "désignation" : "libelle102",
+        "prix" : 89,
+        "catégorie" : "categorie2",
+        "disponibilité" : ["tanger", "rabat", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test2", "adresse" : "adresse2"}
+    },
+
+    {
+        "ID" : 107,
+        "désignation" : "libelle104",
+        "prix" : 149,
+        "catégorie" : "categorie2",
+        "disponibilité" : ["tanger", "rabat", "fes", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test4", "adresse" : "adresse4"}
+    },
+
+    {
+        "ID" : 108,
+        "désignation" : "libelle103",
+        "prix" : 99,
+        "catégorie" : "categorie1",
+        "disponibilité" : ["tanger", "rabat", "fes", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test3", "adresse" : "adresse3"}
+    },
+
+    {
+        "ID" : 109,
+        "désignation" : "libelle104",
+        "prix" : 199,
+        "catégorie" : "categorie3",
+        "disponibilité" : ["tanger", "rabat", "fes", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test4", "adresse" : "adresse4"}
+    },
+
+    {
+        "ID" : 110,
+        "désignation" : "libelle103",
+        "prix" : 289,
+        "catégorie" : "categorie1",
+        "disponibilité" : ["tanger", "casablanca"],
+        "fournisseur" : {"raisonSociale" : "test3", "adresse" : "adresse3"}
+    }
+]

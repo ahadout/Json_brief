@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jquery -->
+    <script src="script.js"></script> <!-- my script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!-- bootstrap -->
+    <link rel="stylesheet" href="style.css"><!-- my style -->
+    <title>Json</title>
+</head>
+<body>
+    <header class="container-fluid bg-secondary">
+        <h1 class="text-center text-light p-3">Stock</h1>
+    </header>
+    <main class="grid" style="--bs-rows: 3; --bs-columns: 3;">
+        <div class="container-sm mt-5 border col col-sm-6">
+            <div class="row mb-3">
+                <div class="col col-3 input-group mb-3 mt-3">
+                    <input id="search" type="text" placeholder="Search">
+                    <button class="btn btn-outline-secondary" type="button"><img src="search.png" width="20px" height="20px"></button>
+                </div>
+            </div>
+            
+            <div class="row justify-content-sm-center">
+                <div class="col col-sm">
+                    <table class="table table-striped table-responsive" id="table">
+                        <thead>
+                            <tr id="thead">
+                                <th scope="col" onclick="sortTable(0)">ID</th>
+                                <th scope="col" onclick="sortTable(1)">désignation</th>
+                                <th scope="col" onclick="sortTable(2)">prix</th>
+                                <th scope="col" onclick="sortTable(3)">catégorie</th>
+                                <th scope="col" onclick="sortTable(4)">disponibilité</th>
+                                <th scope="col" onclick="sortTable(5)">fournisseur</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="sort.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script><!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script><!-- bootstrap -->
+</body>
+</html>
